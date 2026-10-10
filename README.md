@@ -1,5 +1,8 @@
 # SpendTracker — Instant Personal Finance Dashboard 💳
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Web_App-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://omingole87.github.io/spendtracker/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-blue?style=for-the-badge&logo=github)](https://omingole87.github.io/spendtracker/)
+
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -7,6 +10,9 @@
 [![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?logo=redis&logoColor=white)](https://redis.io/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> 🔗 **Live Web App:** [https://omingole87.github.io/spendtracker/](https://omingole87.github.io/spendtracker/)  
+> **Explore instantly:** Click **"Instant Demo Account"** in the browser to launch a populated dashboard with categorized INR expenses, budget alerts, 6-month visual trends, and the interactive benchmark simulator.
 
 > **One screen that instantly answers: *"How much did I spend this month, and on what?"* — even with tens of thousands of transactions.**
 
