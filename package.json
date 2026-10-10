@@ -1,0 +1,14 @@
+{
+  "name": "spendtracker-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SpendTracker — Instant Personal Finance Dashboard with PostgreSQL, Redis & React",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": ["personal-finance", "postgresql", "redis", "indexing", "react", "typescript"]
+}
