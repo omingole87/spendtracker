@@ -57,11 +57,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div>
             <div className="flex items-center space-x-2">
               <span className="font-bold text-lg text-white tracking-tight">SpendTracker</span>
-              <span className="text-[10px] uppercase font-mono tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-                PostgreSQL + Redis
+              <span className="text-[10px] uppercase font-mono tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold">
+                by OM INGOLE
               </span>
             </div>
-            <p className="text-xs text-slate-400 hidden sm:block">Instant Single-Screen Financial Dashboard</p>
+            <p className="text-xs text-slate-400 hidden sm:block">
+              Designed &amp; Developed by <span className="text-slate-200 font-semibold">OM INGOLE</span> • 2nd Year IT @ SSGMCE
+            </p>
           </div>
         </div>
 
