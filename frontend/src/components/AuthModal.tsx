@@ -47,9 +47,17 @@ export const AuthModal: React.FC = () => {
           <div className="h-12 w-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-violet-500 mx-auto flex items-center justify-center shadow-lg shadow-indigo-500/20 ring-1 ring-white/20 mb-3">
             <Activity className="h-6 w-6 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-white tracking-tight">SpendTracker</h1>
+          <div className="flex items-center justify-center space-x-2">
+            <h1 className="text-2xl font-bold text-white tracking-tight">SpendTracker</h1>
+            <span className="text-[10px] uppercase font-mono tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold">
+              by OM INGOLE
+            </span>
+          </div>
           <p className="text-xs text-slate-400 mt-1">
             Instant answer to "How much did I spend this month, and on what?"
+          </p>
+          <p className="text-[11px] text-slate-400 mt-1.5">
+            Designed &amp; Developed by <a href="https://github.com/omingole87" target="_blank" rel="noopener noreferrer" className="text-indigo-400 font-bold hover:underline">OM INGOLE</a> • 2nd Year IT @ SSGMCE
           </p>
         </div>
 
