@@ -152,8 +152,15 @@ export const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/80 py-4 text-center text-xs text-slate-500 font-mono">
-        SpendTracker • Composite Index <code className="text-slate-400">(user_id, occurred_at)</code> • Redis Aggregate Cache
+      <footer className="border-t border-slate-800/80 py-6 text-center text-xs text-slate-500 font-mono">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            SpendTracker • Composite Index <code className="text-slate-400">(user_id, occurred_at)</code> • Redis Aggregate Cache
+          </div>
+          <div className="text-[12px] text-slate-400 font-sans">
+            Designed &amp; Developed by <a href="https://github.com/omingole87" target="_blank" rel="noopener noreferrer" className="font-bold text-indigo-400 hover:text-indigo-300 transition-colors">OM INGOLE</a> • 2nd Year IT @ SSGMCE
+          </div>
+        </div>
       </footer>
 
       {/* Modals */}
